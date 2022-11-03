@@ -1,0 +1,2 @@
+rootProject.name='MBM'
+include ':app'

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A4ADAF"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/pump"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Water pump is OFF"
+            android:textColor="#887C0F"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/pumpoff"
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/pressBtnn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="80dp"
+            android:background="#D5619814"
+            android:padding="20dp"
+            android:text="PUMP"
+            android:thumb="@drawable/sw_thumb"
+            android:textColor="#151515"
+            android:textOff="Turn OFF"
+            android:textOn="Turn ON"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="My smart pump"
+        android:textColor="#7A0F3D"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/connection"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#121111"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/refreshbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:background="#A3A308"
+        android:text="Refresh" />
+
+</RelativeLayout>

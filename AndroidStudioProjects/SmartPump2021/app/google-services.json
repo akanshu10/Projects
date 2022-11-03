@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312732842941",
+    "project_id": "smartpump2021-f5626",
+    "storage_bucket": "smartpump2021-f5626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312732842941:android:b31fc3ec820c8a6830b0d4",
+        "android_client_info": {
+          "package_name": "com.akihsna.smartpump2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312732842941-qj1rnrfpldbnea22q5hc0krjd5e8eebe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAchnuZf03a3pgJqJGzjMt0sfXLBSH6goM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312732842941-qj1rnrfpldbnea22q5hc0krjd5e8eebe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

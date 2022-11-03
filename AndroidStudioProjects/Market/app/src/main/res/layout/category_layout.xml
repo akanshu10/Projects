@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="1dp"
+    android:elevation="1dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/category_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text=" S. no"
+        android:textColor="#675D08"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Category Name"
+        android:textColor="#675D08"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/category_no"
+        app:layout_constraintStart_toEndOf="@+id/category_no" />
+
+    <ImageView
+        android:id="@+id/category_Icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/category_name"
+        app:layout_constraintEnd_toStartOf="@+id/category_edit"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/category_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/category_Icon"
+        app:layout_constraintEnd_toStartOf="@+id/delete_category"
+        app:srcCompat="@drawable/edit_icon"
+        app:tint="@color/purple_200" />
+
+    <ImageView
+        android:id="@+id/delete_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/category_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/delete_icon"
+        app:tint="@color/red" />
+</androidx.constraintlayout.widget.ConstraintLayout>

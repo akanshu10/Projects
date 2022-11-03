@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:layout_marginTop="4dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/orderimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider12"
+        app:srcCompat="@drawable/food" />
+
+    <TextView
+        android:id="@+id/orderid"
+        android:layout_width="76dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="OD2344343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sellername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Disha Expert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ordername" />
+
+    <TextView
+        android:id="@+id/orderprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Rs 3487/-"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/divider11"
+        app:layout_constraintTop_toBottomOf="@+id/sellername" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderimage" />
+
+    <ImageView
+        android:id="@+id/orderorderindicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider11"
+        app:srcCompat="@drawable/ic_baseline_fiber_manual_record_24"
+        app:tint="#7ED7DFD7" />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderid" />
+
+    <TextView
+        android:id="@+id/ordername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Redmi 5A"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider12" />
+
+    <TextView
+        android:id="@+id/orderorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Ordered"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/orderorderindicator"
+        app:layout_constraintStart_toEndOf="@+id/orderorderindicator"
+        app:layout_constraintTop_toTopOf="@+id/orderorderindicator" />
+
+    <ProgressBar
+        android:id="@+id/orderprogressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:progress="100"
+        android:progressTint="#7ED7DFD7"
+        android:rotation="90"
+        android:transformPivotX="0dp"
+        app:layout_constraintStart_toStartOf="@+id/orderorderindicator"
+        app:layout_constraintTop_toTopOf="@+id/orderorderindicator" />
+
+    <ImageView
+        android:id="@+id/orderpackedindicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:tint="#7ED7DFD7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderorderindicator"
+        app:srcCompat="@drawable/ic_baseline_fiber_manual_record_24" />
+
+    <TextView
+        android:id="@+id/orderpacked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="packed"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/orderpackedindicator"
+        app:layout_constraintStart_toEndOf="@+id/orderpackedindicator"
+        app:layout_constraintTop_toTopOf="@+id/orderpackedindicator" />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="32dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pakingdate" />
+
+    <TextView
+        android:id="@+id/orderdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="10 dec"
+        app:layout_constraintStart_toStartOf="@+id/orderorder"
+        app:layout_constraintTop_toBottomOf="@+id/orderorder" />
+
+    <TextView
+        android:id="@+id/pakingdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="14 dec"
+        app:layout_constraintStart_toStartOf="@+id/orderpacked"
+        app:layout_constraintTop_toBottomOf="@+id/orderpacked" />
+</androidx.constraintlayout.widget.ConstraintLayout>

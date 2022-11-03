@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".college.collegeprofileActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/back"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="220dp"
+                        android:layout_gravity="center"
+                        android:background="#F8F7F6"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/profie"
+                            android:id="@+id/coverimag"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profilePic"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center"
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="4dp"
+                            android:src="@drawable/exam"
+                            android:layout_marginTop="35dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_camera"
+                            android:layout_width="50dp"
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="1dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="215dp"
+                            android:layout_marginTop="150dp"
+                            android:src="@drawable/ic_photo_camera_black_24dp"
+                            android:layout_marginLeft="215dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_camera1"
+                            android:layout_width="42dp"
+                            android:layout_height="33dp"
+                            android:layout_marginStart="345dp"
+                            android:layout_marginTop="130dp"
+                            android:src="@drawable/ic_photo_camera_black_24dp"
+                            android:background="@color/colorPrimary"
+                            android:layout_marginLeft="345dp" />
+                    </FrameLayout>
+                    </RelativeLayout>
+                    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:background="@color/back">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/parsonalinfo"
+                                    android:text="College Parsonal details"
+                                    android:textSize="17sp"
+                                    android:padding="5dp"
+                                    android:layout_gravity="right"
+                                    android:layout_marginEnd="5dp"
+                                    android:textColor="#FAF8F4"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@color/back"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/editparsonalinfo"
+                                    android:textSize="22sp"
+                                    android:padding="5dp"
+                                    android:layout_gravity="right"
+                                    android:layout_marginEnd="2dp"
+                                    android:layout_marginStart="320dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:textColor="#3149CD"
+                                    android:text="edit"
+                                    android:layout_marginLeft="320dp"/>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/collegename"
+                                    android:text="College name"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:background="#F6F6F6"
+                                    android:layout_marginStart="10dp"
+                                    android:textSize="15sp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <EditText
+                                    android:id="@+id/collegenameedit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"
+                                    android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+                                    android:layout_below="@+id/collegename"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="20dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/schoolcontectno"
+                                    android:text="School Contect no."
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:background="#F6F6F6"
+                                    android:layout_marginStart="10dp"
+                                    android:textSize="15sp"
+                                    android:layout_below="@+id/collegenameedit"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <EditText
+                                    android:id="@+id/schoolcontectnoedit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"
+                                    android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+                                    android:layout_below="@+id/schoolcontectno"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="20dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/pricipalname"
+                                    android:text="Principal name"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:background="#F6F6F6"
+                                    android:layout_marginStart="10dp"
+                                    android:textSize="15sp"
+                                    android:layout_below="@+id/schoolcontectnoedit"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <EditText
+                                    android:id="@+id/principalnameedit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"
+                                    android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+                                    android:layout_below="@+id/pricipalname"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="20dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/pricipalcontectno"
+                                    android:text="Principal Contect no."
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:background="#F6F6F6"
+                                    android:layout_marginStart="10dp"
+                                    android:textSize="15sp"
+                                    android:layout_below="@+id/principalnameedit"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <EditText
+                                    android:id="@+id/principalcontedit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"
+                                    android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+                                    android:layout_below="@+id/pricipalcontectno"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="20dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/colladds"
+                                    android:text="School Address"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:background="#F6F6F6"
+                                    android:layout_marginStart="10dp"
+                                    android:textSize="15sp"
+                                    android:layout_below="@+id/principalcontedit"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <EditText
+                                    android:id="@+id/colladdedit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"
+                                    android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+                                    android:layout_below="@+id/colladds"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="20dp" />
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/studentdash"
+                                        android:text="Student dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewstudentdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                    </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/teacherdash"
+                                        android:text="Teacher dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewteacherdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/classdash"
+                                        android:text="Classes dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewclassesdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/guardiandash"
+                                        android:text="Guardian dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewguardiandetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/Attendancedash"
+                                        android:text="Attendance dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewattendancedetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/examdash"
+                                        android:text="Exam dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewexamdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/resultdash"
+                                        android:text="Result dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewresultdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/scholarshipdash"
+                                        android:text="Scholarship dashboard"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#FAF8F4"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    >
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/viewscholarshipdetails"
+                                        android:text="View details"
+                                        android:textColor="#2E2EED"
+                                        android:background="#F6F6F6"
+                                        android:layout_marginStart="250dp"
+                                        android:textSize="15sp"
+                                        android:layout_marginBottom="5dp"
+                                        android:layout_marginLeft="10dp" />
+
+                                </RelativeLayout>
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/setting"
+                                        android:drawableLeft="@drawable/ic_settings_black_24dp"
+                                        android:text="  Account Setting"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#040404"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#FAF8F6"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/back"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@color/back">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/logout"
+                                        android:drawableLeft="@drawable/ic_lock_black_24dp"
+                                        android:text="  Logout"
+                                        android:textSize="17sp"
+                                        android:padding="5dp"
+                                        android:layout_gravity="right"
+                                        android:layout_marginEnd="5dp"
+                                        android:textColor="#040404"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@color/back"/>
+
+                                </RelativeLayout>
+
+
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

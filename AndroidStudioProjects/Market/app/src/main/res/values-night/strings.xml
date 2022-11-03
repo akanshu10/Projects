@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_category" />
+    <string name="menu_user" />
+    <string name="product" />
+    <string name="logout" />
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

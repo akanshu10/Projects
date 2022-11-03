@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9CDFDBDB"
+    tools:context=".ui.account.AccountActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/inclue"
+                layout="@layout/category_appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/account_profile_layout" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/orderlayoutrecyclerview"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="378dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/languageid"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:text="Language Settings"
+        android:gravity="center|left"
+        android:textColor="@color/black"
+        android:drawableTint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_language_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <TextView
+        android:id="@+id/notificationid"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:text="Notification"
+        android:textColor="@color/black"
+        android:drawableTint="@color/black"
+        android:background="@color/white"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_baseline_notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageid" />
+
+    <TextView
+        android:id="@+id/accountsetting"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:drawableTint="@color/black"
+        android:textColor="@color/black"
+        android:text="Account Settings"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_baseline_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notificationid" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:drawableTint="@color/black"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+        android:layout_marginTop="1dp"
+        android:text="Log Out"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountsetting" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

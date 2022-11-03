@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home1"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/allcategorios1" android:title="All Categories" android:icon="@drawable/ic_baseline_border_all_24"/>
+        <item android:id="@+id/language1" android:title="Choose an laguage" android:icon="@drawable/ic_baseline_language_24"/>
+        <item android:id="@+id/order1" android:title="My order" android:icon="@drawable/ic_baseline_local_shipping_24"/>
+        <item android:id="@+id/cart1" android:title="My cart" android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+        <item android:id="@+id/list1" android:title="My list" android:icon="@drawable/ic_baseline_favorite_24"/>
+        <item android:id="@+id/account1" android:title="My Account" android:icon="@drawable/ic_baseline_account_circle_24"/>
+        <item android:id="@+id/notification1" android:title="My Notification" android:icon="@drawable/ic_baseline_notifications"/>
+        <item android:id="@+id/chat1" android:title="My Chat" android:icon="@drawable/ic_baseline_chat_24"/>
+        <item android:id="@+id/help1" android:title="Help and Support"/>
+        <item android:id="@+id/privacy1" android:title="Privacy Policy"/>
+
+    </group>
+</menu>

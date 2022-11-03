@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147691417554",
+    "firebase_url": "https://fir-f1dc1.firebaseio.com",
+    "project_id": "fir-f1dc1",
+    "storage_bucket": "fir-f1dc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147691417554:android:6787c383ff5da89ada620b",
+        "android_client_info": {
+          "package_name": "com.mbm.education.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147691417554-2unka8a4m30d367ji38npm2nefjtqqlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClakx8JnVbPYXGW5WEMi0n7PlySkKiudM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147691417554-2unka8a4m30d367ji38npm2nefjtqqlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".college.paasoutstudentActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/back">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/backarrow"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:background="@color/back"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:text="New Addmitted Student"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@color/back"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/home"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="350dp"
+            android:gravity="center"
+            android:drawableRight="@drawable/ic_home_black_24dp"
+            android:background="@color/back"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="10dp" />
+
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#FAF9F7"
+            android:layout_marginEnd="10dp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="false"
+        android:background="@color/back"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="140dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/black">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_alignParentRight="true"
+                            android:orientation="horizontal">
+
+                            <TableLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:background="@color/button_selectorcolor">
+                                    <TextView
+                                        android:id="@+id/nstudentname"
+                                        android:layout_width="200dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:gravity="center"
+                                        android:text="Student Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/nfathername"
+                                        android:layout_width="200dp"
+
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:text="Father Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/nmothername"
+                                        android:layout_width="200dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:text="Mother Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/ndob"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Date of Birth"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/ngender"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Gendar"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/ndetails"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Other details"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#FEFFFF"
+                                    >
+                                    <TextView
+                                        android:id="@+id/nstudentname"
+                                        android:layout_width="128dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:gravity="center"
+                                        android:text="Student Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/nfathername"
+                                        android:layout_width="128dp"
+
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:text="Father Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/nmothername"
+                                        android:layout_width="188dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:text="Mother Name"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/ndob"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Date of Birth"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/ngender"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Gendar"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/ndetails"
+                                        android:layout_width="200dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_alignParentRight="true"
+                                        android:text="Other details"
+                                        android:textColor="#000"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                </TableRow>
+
+
+                            </TableLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577405800502",
+    "firebase_url": "https://e-marketing-and-home-shopping.firebaseio.com",
+    "project_id": "e-marketing-and-home-shopping",
+    "storage_bucket": "e-marketing-and-home-shopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577405800502:android:3660e46b7a516170320897",
+        "android_client_info": {
+          "package_name": "com.akihsna.localmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577405800502-p9gdt928tfp51dcu7b6ofgvv5rm63rtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaLDnPY7aTqVCnsrhD5Xj7XzO0Dc9f8R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577405800502-p9gdt928tfp51dcu7b6ofgvv5rm63rtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

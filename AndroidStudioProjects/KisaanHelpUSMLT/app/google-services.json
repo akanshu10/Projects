@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826572682518",
+    "firebase_url": "https://kisaan-help-usmlt.firebaseio.com",
+    "project_id": "kisaan-help-usmlt",
+    "storage_bucket": "kisaan-help-usmlt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826572682518:android:798bb0cf0142cb3c184c37",
+        "android_client_info": {
+          "package_name": "com.akihsna.kisaanhelpusmlt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826572682518-ab9o6esm0p71qmev3g0tnmirp114p4v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6revpIbp426igwBOttjMpPtBm86T0X0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826572682518-ab9o6esm0p71qmev3g0tnmirp114p4v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "7410026954",
+    "firebase_url": "https://sendotp-a2923.firebaseio.com",
+    "project_id": "sendotp-a2923",
+    "storage_bucket": "sendotp-a2923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7410026954:android:c424ee7e79c53589432733",
+        "android_client_info": {
+          "package_name": "com.akihsna.sendotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-17UZnAnFSRNFkhOYwP8vuR9Ca-ifexw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7410026954:android:b024da5c6ace1ba8432733",
+        "android_client_info": {
+          "package_name": "com.akihsna.sendotp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-17UZnAnFSRNFkhOYwP8vuR9Ca-ifexw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7410026954:android:2d024aeb1fb87237432733",
+        "android_client_info": {
+          "package_name": "com.akihsna.sendotp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-17UZnAnFSRNFkhOYwP8vuR9Ca-ifexw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7410026954-qdbl6oppkuirjp2tqdvk4uhhfddgnhud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

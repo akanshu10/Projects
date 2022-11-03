@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_Teacher"
+            android:title="@string/menu_Teacher"
+            android:icon="@drawable/ic_person_add_black_24dp"/>
+        <item
+            android:id="@+id/nav_Students"
+            android:title="@string/menu_Students"
+            android:icon="@drawable/ic_person_add_black_24dp"/>
+        <item
+            android:id="@+id/nav_classes"
+            android:title="@string/menu_Classes"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"/>
+        <item
+            android:id="@+id/nav_exam_deshboard"
+            android:title="@string/menu_Exam"
+            android:icon="@drawable/ic_assignment_black_24dp"/>
+        <item
+            android:id="@+id/nav_exam_holiday"
+            android:title="@string/menu_Holiday"
+            android:icon="@drawable/ic_child_care_black_24dp"/>
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/menu_Events"
+            android:icon="@drawable/ic_access_alarm_black_24dp"/>
+        <item
+            android:id="@+id/nav_exam_syllabus"
+            android:title="@string/menu_Syllabus"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"/>
+        <item
+            android:id="@+id/nav_scholership"
+            android:title="@string/menu_Scholership"
+            android:icon="@drawable/ic_business_center_black_24dp"/>
+        <item
+            android:id="@+id/nav_exam_contect_with"
+            android:title="@string/menu_contect_with"
+            android:icon="@drawable/ic_settings_phone_black_24dp"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/menu_Setting"
+            android:icon="@drawable/ic_settings_applications_black_24dp"/>
+        <item
+            android:id="@+id/nav_terms"
+            android:title="@string/menu_term" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:title="@string/menu_privacy_policy" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/menu_Help_center" />
+
+    </group>
+</menu>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1020108574071",
+    "firebase_url": "https://fir-8863a.firebaseio.com",
+    "project_id": "fir-8863a",
+    "storage_bucket": "fir-8863a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020108574071:android:9cf3330e33c6206b55e572",
+        "android_client_info": {
+          "package_name": "com.akihsna.school_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020108574071-cobiq2m3evj2mjhdo20qhpq957dn4rgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5tHu4IPwDNAGoS9BHx951hvZT1fSohEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020108574071-cobiq2m3evj2mjhdo20qhpq957dn4rgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020108574071:android:f4e6aa3d7e45a97355e572",
+        "android_client_info": {
+          "package_name": "com.mbm.education.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020108574071-cobiq2m3evj2mjhdo20qhpq957dn4rgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5tHu4IPwDNAGoS9BHx951hvZT1fSohEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020108574071-cobiq2m3evj2mjhdo20qhpq957dn4rgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

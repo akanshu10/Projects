@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803399709277",
+    "project_id": "appointment-c0b9f",
+    "storage_bucket": "appointment-c0b9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803399709277:android:ee5d75c80d3d322cfad3b4",
+        "android_client_info": {
+          "package_name": "com.akihsna.appointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803399709277-gqmni43hdguosq1101a5onc66hbha376.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBZGuhiDiDoT_2_wz3D-mlskQLH8F7xzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803399709277-gqmni43hdguosq1101a5onc66hbha376.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

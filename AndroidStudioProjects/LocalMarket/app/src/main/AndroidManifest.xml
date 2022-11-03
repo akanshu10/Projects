@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.akihsna.localmarket">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.type.watch"
+        android:required="false"
+        tools:ignore="InvalidWearFeatureAttribute" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LocalMarket">
+        <activity android:name=".ui.list.wishlistActivity"></activity>
+        <activity android:name=".ui.viewAll.ViewAllActivity" />
+        <activity android:name=".ui.allcategories.AllcategoryActivityActivity" />
+        <activity android:name=".ui.account.AccountActivity" />
+        <activity android:name=".ui.list.MywishlistActivity" />
+        <activity android:name=".ui.order.orderDetailsActivity" />
+        <activity android:name=".ui.order.MyorderActivity" />
+        <activity android:name=".ui.allcategories.ProductActivity" />
+        <activity android:name=".ui.allcategories.CategoryActivity" />
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".Loginhomepage"
+            android:label="@string/title_activity_loginhomepage"
+            android:theme="@style/Theme.LocalMarket.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EmailloginActivity" />
+        <activity android:name=".EmailsignupActivity" />
+        <activity android:name=".forgetpasswordActivity" />
+        <activity android:name=".phoneloginActivity" />
+        <activity android:name=".verifyotpActivity" />
+        <activity android:name=".emaillinkverificationActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.s12dps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.cart.CartActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akihsna.skart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".college.addtaechernxtActivity"></activity>
+        <activity android:name=".college.addguardiannxtActivity" />
+        <activity android:name=".college.syllabusActivity" />
+        <activity android:name=".college.resultActivity" />
+        <activity android:name=".college.libraryActivity" />
+        <activity android:name=".college.accountActivity" />
+        <activity android:name=".college.eventsActivity" />
+        <activity android:name=".college.holidayActivity" />
+        <activity android:name=".college.scholarshipActivity" />
+        <activity android:name=".college.nextexamActivity" />
+        <activity android:name=".college.previousexamActivity" />
+        <activity android:name=".college.quizActivity" />
+        <activity android:name=".college.annualexamActivity" />
+        <activity android:name=".college.halfyearlyexamActivity" />
+        <activity android:name=".college.monthlyexamactivityActivity" />
+        <activity android:name=".college.blockedguardianActivity" />
+        <activity android:name=".college.addguardianActivity" />
+        <activity android:name=".college.totalguardianActivity" />
+        <activity android:name=".college.blockedteacherActivity" />
+        <activity android:name=".college.addteacherActivity" />
+        <activity android:name=".college.leftteacherActivity" />
+        <activity android:name=".college.newappointedteacherActivity" />
+        <activity android:name=".college.totalpresentteacherActivity" />
+        <activity android:name=".college.totalteacherActivity" />
+        <activity android:name=".college.restrictedstudentActivity" />
+        <activity android:name=".college.paasoutstudentActivity" />
+        <activity android:name=".college.totalpresentstudentActivity" />
+        <activity android:name=".college.leftstudentActivity" />
+        <activity android:name=".college.newadmittedstudentActivity" />
+        <activity android:name=".college.blockedstudentActivity" />
+        <activity
+            android:name=".college.bottomnevigationActivity"
+            android:label="@string/title_activity_bottomnevigation" />
+        <activity android:name=".college.financeAccountActivity" />
+        <activity android:name=".college.totalstudentActivity" />
+        <activity android:name=".college.addstudentnextActivity" />
+        <activity android:name=".college.AddstudentActivity" />
+        <activity android:name=".college.AttendanceActivity" />
+        <activity android:name=".college.ExamActivity" />
+        <activity android:name=".college.guardiansActivity" />
+        <activity android:name=".college.classesActivity" />
+        <activity android:name=".college.collegeteacherActivity" />
+        <activity android:name=".college.studentActivity" />
+        <activity android:name=".college.collegeprofileActivity" />
+        <activity android:name=".college.collegeloginActivity" />
+        <activity android:name=".otpverificationActivity" />
+        <activity android:name=".visitoesignupActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

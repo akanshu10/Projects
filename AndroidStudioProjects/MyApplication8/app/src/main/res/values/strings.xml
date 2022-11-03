@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Usertype">Choose an user</string>
+    <string-array name="Usertype">
+        <item>Select Usertype</item>
+        <item>College/School</item>
+        <item>Teacher/Faculty</item>
+        <item>Student</item>
+        <item>Visitor</item>
+    </string-array>
+</resources>

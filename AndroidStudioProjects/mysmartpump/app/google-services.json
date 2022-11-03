@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "124060678318",
+    "firebase_url": "https://mysmartwaterpump.firebaseio.com",
+    "project_id": "mysmartwaterpump",
+    "storage_bucket": "mysmartwaterpump.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124060678318:android:9215c9bd4416932225553f",
+        "android_client_info": {
+          "package_name": "com.akihsna.mysmartpump"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124060678318-671a02i6jl8iuiuvoqp9aheb86j6pjnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAzM9lZ8ynigg8j-K0PV5t4ROmJBLqt8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124060678318-671a02i6jl8iuiuvoqp9aheb86j6pjnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

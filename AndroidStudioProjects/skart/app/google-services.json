@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826429137070",
+    "firebase_url": "https://skart-4323c.firebaseio.com",
+    "project_id": "skart-4323c",
+    "storage_bucket": "skart-4323c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826429137070:android:67374f8298846f9f258d3f",
+        "android_client_info": {
+          "package_name": "com.akihsna.skart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826429137070-8rtc4h0t3jbqfmn75j3v1su8j4j40131.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV2XDRgz69f_nsGXUXvJ2lCszOCiyf2AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826429137070-8rtc4h0t3jbqfmn75j3v1su8j4j40131.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

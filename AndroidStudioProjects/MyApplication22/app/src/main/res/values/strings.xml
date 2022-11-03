@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="login">LOGIN</string>
+    <string name="email">UserId</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="passowrd">Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="newUser">Not a Member yet? Sign Up here as a Visitor.</string>
+</resources>

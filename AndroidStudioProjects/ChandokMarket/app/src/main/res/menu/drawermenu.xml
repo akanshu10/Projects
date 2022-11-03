@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/allcategorios" android:title="All Categories" android:icon="@drawable/ic_baseline_border_all_24"/>
+    <item android:id="@+id/language" android:title="User" android:icon="@drawable/ic_baseline_language_24"/>
+    <item android:id="@+id/order" android:title="Products" android:icon="@drawable/ic_baseline_local_shipping_24"/>
+    <item android:id="@+id/cart" android:title="Log out" android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+    <item android:id="@+id/list" android:title="My list" android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item android:id="@+id/account" android:title="My Account" android:icon="@drawable/ic_baseline_account_circle_24"/>
+    <item android:id="@+id/notification" android:title="My Notification" android:icon="@drawable/ic_baseline_notifications"/>
+    <item android:id="@+id/chat" android:title="My Chat" android:icon="@drawable/ic_baseline_chat_24"/>
+    <item android:id="@+id/help" android:title="Help and Support"/>
+    <item android:id="@+id/privacy" android:title="Privacy Policy"/>
+
+</menu>

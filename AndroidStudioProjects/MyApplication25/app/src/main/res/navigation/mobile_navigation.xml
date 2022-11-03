@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mbm.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.mbm.myapplication.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mbm.myapplication.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_Teacher"
+        android:name="com.mbm.myapplication.ui.Teacher.TeacherFragment"
+        android:label="@string/menu_Teacher"
+        tools:layout="@layout/fragment_teacher" />
+    <fragment
+        android:id="@+id/nav_Student"
+        android:name="com.mbm.myapplication.ui.student.StudentFragment"
+        android:label="@string/menu_Students"
+        tools:layout="@layout/fragment_student" />
+    <fragment
+        android:id="@+id/nav_classes"
+        android:name="com.mbm.myapplication.ui.classes.ClassesFragment"
+        android:label="@string/menu_Classes"
+        tools:layout="@layout/fragment_classes" />
+    <fragment
+        android:id="@+id/nav_exam_deshboard"
+        android:name="com.mbm.myapplication.ui.examdeshboard.ExamdeshboardFragment"
+        android:label="@string/menu_Exam"
+        tools:layout="@layout/fragment_examdeshboard" />
+    <fragment
+    android:id="@+id/nav_holidays"
+    android:name="com.mbm.myapplication.ui.holidays.HolidayFragment"
+    android:label="@string/menu_Holiday"
+    tools:layout="@layout/fragment_holidays" />
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.mbm.myapplication.ui.events.EventsFragment"
+        android:label="@string/menu_Events"
+        tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/nav_syllabus"
+        android:name="com.mbm.myapplication.ui.syllabus.SyllabusFragment"
+        android:label="@string/menu_Syllabus"
+        tools:layout="@layout/fragment_syllabus" />
+    <fragment
+        android:id="@+id/nav_scholarship"
+        android:name="com.mbm.myapplication.ui.scholarship.ScholarshipFragment"
+        android:label="@string/menu_Scholership"
+        tools:layout="@layout/fragment_scholarship" />
+    <fragment
+        android:id="@+id/nav_contectwith"
+        android:name="com.mbm.myapplication.ui.contectwith.ContectwithFragment"
+        android:label="@string/menu_contect_with"
+        tools:layout="@layout/fragment_contectwith" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.mbm.myapplication.ui.settings.SettingsFragment"
+        android:label="@string/menu_Setting"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_termsofservices"
+        android:name="com.mbm.myapplication.ui.termsofservices.TermsofservicesFragment"
+        android:label="@string/menu_term"
+        tools:layout="@layout/fragment_termsofservices" />
+    <fragment
+        android:id="@+id/nav_privacypolicy"
+        android:name="com.mbm.myapplication.ui.privacypolicy.PrivacypolicyFragment"
+        android:label="@string/menu_privacy_policy"
+        tools:layout="@layout/fragment_privacypolicy" />
+    <fragment
+        android:id="@+id/nav_helpcenter"
+        android:name="com.mbm.myapplication.ui.helpcenter.HelpcenterFragment"
+        android:label="@string/menu_Help_center"
+        tools:layout="@layout/fragment_helpcenter" />
+</navigation>

@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+tools:context=".ui.profile.ProfileFragment" >
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="93dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="30dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+
+                android:src="@drawable/ic_settings_black_24dp"
+                android:textSize="16sp"
+
+                app:civ_border_color="#FF000000"
+
+
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_post_number"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="41"
+
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_post"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="Post"
+
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_followers_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="1.0M"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/text_followers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="Follower"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_Following"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_Following"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="Following"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <MultiAutoCompleteTextView
+            android:id="@+id/write_your_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="write something about yourself"
+            android:textSize="16sp"
+            android:maxLength="190"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Pricipal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="SchoolCollege Principal"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="384dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Pricipal_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+
+                        android:layout_marginStart="10dp"
+                        android:text="SchoolCollege Principal name"
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Pricipal_qualification"
+                        android:layout_width="198dp"
+                        android:layout_height="33dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Qualification"
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="178dp"
+                    android:layout_height="117dp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/principal_profile_image"
+                        android:layout_width="92dp"
+                        android:layout_height="76dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="25dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+
+                        android:src="@drawable/ic_settings_black_24dp"
+                        android:textSize="12sp"
+
+                        app:civ_border_color="#FF000000"
+
+
+                        app:civ_border_width="2dp" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Pricipal_edit_profile"
+                android:layout_width="89dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="edit profile"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Student_deshboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="Student deshboard"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="384dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="206dp"
+                        android:layout_height="31dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/total_student"
+                            android:layout_width="wrap_content"
+                            android:layout_height="34dp"
+
+                            android:layout_marginStart="10dp"
+                            android:text="Total Student"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_student_number"
+                            android:layout_width="74dp"
+                            android:layout_height="31dp"
+
+                            android:layout_marginStart="30dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="206dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Today_prasent"
+                            android:layout_width="102dp"
+                            android:layout_height="36dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Today Prasent Student"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_ptasentstudent_number"
+                            android:layout_width="76dp"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginStart="19dp"
+                            android:layout_marginTop="5dp"
+                            android:text="41111112267"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="164dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/view_students"
+                        android:layout_width="106dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="40dp"
+
+                        android:text="view student deshboard"
+
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacher_deshboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="Teacher deshboard"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="384dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="206dp"
+                        android:layout_height="31dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/total_teachers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="34dp"
+
+                            android:layout_marginStart="10dp"
+                            android:text="Total Teacher"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_teacher_number"
+                            android:layout_width="65dp"
+                            android:layout_height="31dp"
+
+                            android:layout_marginStart="36dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="206dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Today_tprasent"
+                            android:layout_width="102dp"
+                            android:layout_height="46dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Today Prasent Teacher"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_tptasent_number"
+                            android:layout_width="63dp"
+                            android:layout_height="46dp"
+                            android:layout_marginStart="30dp"
+
+                            android:layout_marginTop="5dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="161dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/view_teacher"
+                        android:layout_width="106dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="40dp"
+
+                        android:text="view Teachers deshboard"
+
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Account_deshboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="Account"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="206dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/total_pstudent"
+                            android:layout_width="99dp"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginStart="10dp"
+                            android:text="Number of student paid"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_pstudent_number"
+                            android:layout_width="66dp"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginStart="30dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="207dp"
+                        android:layout_height="61dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Today_spending"
+                            android:layout_width="99dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Number of pending students"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_spending_number"
+                            android:layout_width="65dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="31dp"
+                            android:layout_marginTop="5dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="159dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/view_accounts"
+                        android:layout_width="106dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="40dp"
+
+                        android:text="view accounts"
+
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Account_deshboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="Account"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="185dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/total_pstudent"
+                            android:layout_width="99dp"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginStart="10dp"
+                            android:text="Number of student paid"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_pstudent_number"
+                            android:layout_width="30dp"
+                            android:layout_height="31dp"
+
+                            android:layout_marginStart="44dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="185dp"
+                        android:layout_height="61dp"
+                        android:layout_marginStart="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Today_spending"
+                            android:layout_width="99dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Number of pending students"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/total_spending_number"
+                            android:layout_width="30dp"
+                            android:layout_height="31dp"
+
+                            android:layout_marginStart="44dp"
+                            android:text="41"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/view_accounts"
+                        android:layout_width="106dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="40dp"
+
+                        android:text="view accounts"
+
+                        android:textSize="15sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+
+
+
+

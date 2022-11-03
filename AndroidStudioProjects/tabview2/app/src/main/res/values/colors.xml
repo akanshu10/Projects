@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorlayout">#08145A</color>
+    <color name="colorlayoutb">#03082B</color>
+    <color name="colorPrimaryDark">#57565A</color>
+    <color name="colorAccent">#074740</color>
+    <color name="colorAccentb">#032723</color>
+    <color name="colortab3">#1C4004</color>
+    <color name="colortab3b">#102502</color>
+    <color name="colortab4">#504804</color>
+    <color name="colortab4b">#2B2603</color>
+    <color name="colorPrimary">#0B4C68</color>
+    <color name="colorPrimaryb">#043145</color>
+    <color name="background_color">#009688</color>
+    <color name="back">#418AC2</color>
+    <color name="showpass">#DFCC25</color>
+    <color name="forgetpass">#CF1506</color>
+    <color name="white">#FB1B1A1A</color>
+    <color name="white1">#F8F5F5</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#C59538</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+</resources>

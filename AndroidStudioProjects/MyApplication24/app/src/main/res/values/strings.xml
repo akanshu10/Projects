@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="home_second">Home1</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_Teacher">Teachers</string>
+    <string name="menu_Students">Students</string>
+    <string name="menu_Classes">Classes</string>
+    <string name="menu_Exam">Exam deshboard</string>
+    <string name="menu_Holiday">Holidays</string>
+    <string name="menu_Events">Events</string>
+    <string name="menu_Syllabus">Syllabus</string>
+    <string name="menu_Scholership">Scholership deshboard</string>
+    <string name="menu_contect_with">Contect with</string>
+    <string name="menu_Setting">Settings</string>
+    <string name="menu_term">Terms of services</string>
+    <string name="menu_privacy_policy">Privacy policies</string>
+    <string name="menu_Help_center">Help center</string>
+</resources>

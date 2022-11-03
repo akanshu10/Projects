@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413302651410",
+    "firebase_url": "https://my-school-r341.firebaseio.com",
+    "project_id": "my-school-r341",
+    "storage_bucket": "my-school-r341.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413302651410:android:d6c0c6e777ad04bb3276cb",
+        "android_client_info": {
+          "package_name": "com.akihsna.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413302651410-1hbb7fhn8ch9gla31k2si9ils068899r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9AWcNvWFe0P5J1fnecMQqvAbdzrObdjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413302651410-1hbb7fhn8ch9gla31k2si9ils068899r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
